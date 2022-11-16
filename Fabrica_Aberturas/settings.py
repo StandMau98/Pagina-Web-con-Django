@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Fabrica_Aberturas.urls'
 TEMPLATES = TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r"\Users\mauro\Documents\Pagina Web por Django\Fabrica_Aberturas\Modelos\templates\Modelos"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

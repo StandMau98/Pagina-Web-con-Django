@@ -28,21 +28,25 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'Base' %}">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'Ventanas' %}">Ventanas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'Puertas' %}">Puertas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'mosquiteros' %}">Mosquiteros</a></li>
+                        
                     </ul>
                 </div>
             </div>
         </nav>
+        <h1>¡BIENVENIDOS A LA FABRICA DE ABERTURAS "ZONA SUR"!</h1>
+        {% block content%} 
+        
+        {% endblock %}
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Welcome To Our Studio!</div>
-                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                <div class="masthead-subheading">Gracias por Visitarnos en nuestra pagina</div>
+                <div class="masthead-heading text-uppercase">Esperamos haberte ayudado,volve pronto!</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Sigueme en redes, Facebook, Instagram o Twitter
             </div>
         </header>
         <!-- Services-->
