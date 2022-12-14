@@ -1,9 +1,9 @@
-{% extends "index.html" %}
+{% extends "Modelos/index.html" %}
 
 
 {% block content %}
 {% csrf_token %}
-<form action="nueva_abertura/crear/" method="post">
+<form action="" method="post">
     <p>Abertura: <input type="text"  name="Ventana"> </p>
     <p>Medida: <input type="number"  name="Medida"></p>
     <p>Color: <input type="text"  name="Color"></p>
